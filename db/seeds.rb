@@ -1,2 +1,2 @@
-User.create(:username => "admin_user", :email => "admin@example.com", :password => "jijijiji", :name => "Lawrence of Adminia", :category => User::CATEGORIES.first[0])
+User.create(:username => "admin_user", :email => "admin@example.com", :password => "blahblah", :name => "Lawrence of Adminia", :category => User::CATEGORIES.first[0], :image_id => 0)
 User.find_by_username("admin_user").update_attribute(:admin, true)
