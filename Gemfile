@@ -54,3 +54,5 @@ gem 'remotipart'
 gem 'quiet_assets'
 
 gem 'will_paginate'
+
+gem 'figaro'
