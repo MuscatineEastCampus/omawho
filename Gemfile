@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#ruby=1.9.3
+#ruby-gemset=omawho
+
 gem 'rails', '3.2.19'
 
 # Bundle edge Rails instead:
