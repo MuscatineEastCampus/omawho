@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#ruby=1.9.3
+ruby "1.9.3"
 #ruby-gemset=omawho
 
 gem 'rails', '3.2.19'
@@ -59,3 +59,5 @@ gem 'quiet_assets'
 gem 'will_paginate'
 
 gem 'figaro'
+
+gem 'rails_12factor', group: :production
