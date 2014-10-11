@@ -131,7 +131,7 @@ class UsersController < ApplicationController
 private
 
   def gallery_home
-    @page_title = "The Faces of #{@site_location}'s Creative Community"
+    @page_title = @site_tagline
     @page_description = "#{@site_title} shows basic profiles of the designers, programmers, decorators, photographers and other creatives in #{@site_location}."
     
     if params[:page].blank? || params[:page] == 1
