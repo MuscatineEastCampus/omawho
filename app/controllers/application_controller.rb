@@ -13,6 +13,8 @@ class ApplicationController < ActionController::Base
     
     # What location do you serve?
     @site_location = "Muscatine, Iowa"
+    @site_tagline = "The Faces of Muscatine's Creative and Entrepreneurial Community"
+    @site_tagline_lower = "The faces of Muscatine's creative and entrepreneurial community."
     
     # Optional - Your Twitter handle.
     @site_twitter = ""

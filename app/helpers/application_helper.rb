@@ -15,7 +15,7 @@ module ApplicationHelper
     if @page_description.present?
       raw @page_description
     else
-      raw "The faces of #{@site_location}'s creative community. Add your own face to the gallery for free."
+      raw "#{@site_tagline_lower} Add your own face to the gallery for free."
     end
   end
   
@@ -23,7 +23,7 @@ module ApplicationHelper
     if @blurb.present?
       @blurb
     else
-      "The faces of #{@site_location}'s creative community."
+      "#{@site_tagline_lower}"
     end
   end
 end
